@@ -1,5 +1,6 @@
 package jade;
-
+import org.lwjgl.glfw.GLFW;
+import org.lwjgl.glfw.GLFWErrorCallback;
 import java.net.http.HttpClient;
 
 public class Window {
@@ -31,7 +32,10 @@ public void run() {
 }
 
 public void init() {
-    System.out.println("Window initialized");
+   // Set up error callback
+    GLFWErrorCallback.createPrint(System.err).set();
+
+
 }
 
 public void loop() {
