@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2727a211-f3cd-4a55-ac75-8b285e7f2eda" name="Changes" comment="Add private constructor to window class">
+    <list default="true" id="2727a211-f3cd-4a55-ac75-8b285e7f2eda" name="Changes" comment="Implement Singleton pattern for Window class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jade/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Window.java" afterDir="false" />
     </list>
@@ -108,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722406209429</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implement Singleton pattern for Window class">
+      <option name="closed" value="true" />
+      <created>1722406638434</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722406638435</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -116,6 +124,7 @@
     <MESSAGE value="Add Window class with get and run methods" />
     <MESSAGE value="Refactor folder structure" />
     <MESSAGE value="Add private constructor to window class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add private constructor to window class" />
+    <MESSAGE value="Implement Singleton pattern for Window class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Singleton pattern for Window class" />
   </component>
 </project>

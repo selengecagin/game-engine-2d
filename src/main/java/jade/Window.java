@@ -1,5 +1,7 @@
 package jade;
 
+import java.net.http.HttpClient;
+
 public class Window {
 private int width, height;
 private String title;
@@ -20,5 +22,20 @@ public static Window get() {
     }
     return Window.window;
 }
+
+public void run() {
+    System.out.println("Hello LWGJL");
+
+    init();
+    loop();
+}
+
+public void init() {
+    System.out.println("Window initialized");
+}
+
+public void loop() {
+    System.out.println("Game loop running");}
+
 
 }
